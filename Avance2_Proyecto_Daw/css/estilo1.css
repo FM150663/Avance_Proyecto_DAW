@@ -1,0 +1,50 @@
+h1{
+	color: white;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+#form1{
+	letter-spacing: 0.5px;
+	color: white;
+	margin: auto;
+	width: 490px;
+	background: rgba(0,0,0,0.8);
+	padding: 15px 45px; /* 20px se va dentro del form*/
+	border-radius: 7px;
+	margin-top: 2px;
+}
+
+
+
+#txtrangoini, #txtrangofin{
+	color: black;
+	width: 152%;
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 17px;
+	border: none;
+}
+
+
+#btndefinirrango{
+	width: 100%;
+	background: #31384A;
+	color: white;
+	padding: 20px;
+
+}
+
+#btndefinirrango:hover{
+cursor: pointer;
+}
+
+/* responsivo*/
+
+@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+} 

@@ -1,0 +1,33 @@
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background:#428BCA;
+	color:#fff;
+	padding:20px 0;
+}
+
+#crear {
+    margin-left: 30%;
+    height: 125px;
+    width: 40%;
+    font-size: 30pt;
+    border-radius: 25px;
+}
+
+footer > .container {
+    margin-top: 3%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	#crear {
+    font-size: 12pt;
+    }
+}
+
+.error{
+    display: none;
+}

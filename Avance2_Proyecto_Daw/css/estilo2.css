@@ -1,0 +1,54 @@
+label{
+	color: white;
+}
+
+
+#form2{
+	letter-spacing: 0.5px;
+	
+	margin: auto;
+	width: 570px;
+	background: rgba(0,0,0,0.8);
+	padding: 15px 45px; /* 20px se va dentro del form*/
+	border-radius: 7px;
+	margin-top: 2px;
+}
+
+
+
+#fecha, #titulo{
+	background-color: white;
+	color: black;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 17px;
+	border: none;
+}
+
+ textarea{
+    color: black;
+	width: 100%;
+	height: 160px;
+}
+
+#btndefinirrango2, #nuevo, #finalizar{
+	margin-bottom: 10px;
+	width: 100%;
+	background: #31384A;
+	color: white;
+	padding: 20px;
+
+}
+
+#btndefinirrango:hover{
+cursor: pointer;
+}
+
+/* responsivo*/
+
+@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+} 
